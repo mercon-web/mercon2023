@@ -1,0 +1,212 @@
+
+/* 
+    Created on : Jan 8, 2015, 8:16:16 PM
+    Author     : Chathura Widanage
+*/
+
+body{
+    background:linear-gradient(black,white);
+    height: 100%;
+}
+
+#top_bar{
+    background-color: black;
+    color: white;
+    height: 40px;
+    line-height: 40px;    
+
+}
+
+#bottom_bar{
+    background-color: black;
+    color: white;
+    height: 70px;
+    line-height: 30px;  
+    font-size: 12px;
+}
+
+#bottom_bar p{
+    margin-bottom: -10px;
+}
+
+#bottom_bar a{
+    color: inherit;
+    text-decoration: underline;
+}
+
+#top_bar img{
+    height: 15px;
+    padding-left: 5px;
+}
+
+#navigation_bar{
+    height: 40px;
+    background-color: #c0c0c0;
+    color: black;
+}
+
+#navigation_bar ul{
+    list-style: none;
+
+}
+
+#navigation_bar ul li{
+    float: left;  
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+#navigation_bar ul li:hover{
+    color: rgb(0,147,198);
+}
+
+.news_panel{
+    background-color: #c0c0c0;
+    height: 100%;
+}
+
+#news_head{
+    background-color: #7ac142;
+    color: white;
+    font-size: 30px;
+}
+
+.news_date{
+    width: 70px;
+    float: left;
+    margin-right: 5px;
+}
+
+.news_date_month{
+    font-size: 16px;
+}
+
+.news_date_day{
+    font-size: 30px;
+}
+
+.news_date_year{
+    font-size: 14px;
+}
+
+.news_item{
+    padding: 5px;
+    color: white;
+}
+
+.nav_first{
+    border-right: 1px solid gray;
+}
+
+.nav_mid{
+    border-right: 1px solid gray;
+    padding-left: 10px;
+}
+.nav_last{
+    padding-left: 10px;
+}
+
+#welcome_bar{
+    /*background-color: rgb(0,147,198);*/
+    background-image: url('../img/topbanner.jpg');
+    background-repeat: no-repeat;
+    //background-size: cover;
+    background-position: right 0 ;
+}
+
+#titlebanner{
+    height: 100px;
+}
+
+.welcome_msg{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 45px;
+    color: black;
+}
+
+.logo_txt{
+    font-size: 48px;
+    color: white;
+    font-weight: bolder;
+    top: 20%;
+}
+
+.welcome_tag{
+    font-size: 25px;
+    line-height: 60px;
+    color: black;
+}
+
+#banner_container{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#conf_date{
+    font-size: 18px;
+    color: white;
+}
+
+.content_panel{
+    background-color: rgb(255,255,255);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.organizers_panel_title{
+    font-size: 20px;
+    color: black;
+    line-height: 100px;
+}
+
+.navbar{
+    margin-bottom: 0;
+}
+
+.navbar-brand-cus{
+    color: white;
+}
+
+.conf_date{
+    font-size: 30px;
+}
+
+.white-back{
+    background-color: white;
+    min-height: calc(100vh - 260px);
+}
+
+.text-center img{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#top_left{
+    padding-left: 3px;
+}
+
+#top_right{
+    padding-right: 3px;
+}
+
+#main_menu{
+    padding-left: 3px;
+}
+
+#mailto{
+    color: white;
+    text-decoration: none;
+}
+
+
+#dropdown{
+    height: 40px;
+    width: 40px;
+    top:30px;
+    background-color: rgba(255,255,255);
+    background-repeat: no-repeat;
+    background-image: url(../img/dropdown.png);
+    background-size: contain;
+    border: 3px solid #285e8e;
+}

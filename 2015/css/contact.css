@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 10, 2015, 11:53:15 AM
+    Author     : Buddhi
+*/
+
+#contact_form{
+    background-color: rgb(255,255,255);
+    position: relative;
+    padding-left: 100px;
+}
+
+#map_container{
+    background-color: rgb(255,255,255);
+    position: relative;
+}
+
+.contact_detail{
+    padding-left: 100px;
+}
+
+.detail{
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.google_map{
+    width: 100%;
+    alignment-adjust: central;
+    position: relative;
+    left: 0px;
+}
+
+#directions{
+    position: relative;
+    left: 1%;
+}
+
+.space30{
+    height: 30px;
+    position: relative;
+}
+.space60{
+    height: 60px;
+    position: relative;
+}
+
