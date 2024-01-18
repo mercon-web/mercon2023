@@ -45,7 +45,7 @@
   background-color: #026ab4;
 }
 .bg-secondary {
-  background-color: #21334b;
+  background-color: #172f4e;
 }
 .bg-white {
   background-color: #fff;
@@ -180,7 +180,7 @@ body {
   font-family: "Gorgia", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background: linear-gradient(90.42deg, #050e15 8.4%, #21334b 90.16%);
+  background: linear-gradient(90.42deg, #050e15 8.4%, #152539 90.16%);
   color: #fff;
 }
 p,
@@ -238,7 +238,7 @@ nav ul li ul {
   width: 300px;
   top: 100%;
   left: 0;
-  background-color: #026ab4;
+  background-color: #265475;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   opacity: 0;
   transition: all 0.3s ease-in-out;
@@ -258,10 +258,10 @@ nav ul li ul li a {
   width: 100%;
 }
 nav ul li ul li:hover {
-  background-color: #005897;
+  background-color: #0a3653;
 }
 nav ul li:hover {
-  background: #026ab4;
+  background: #0a3653;
 }
 nav ul li:hover > ul {
   opacity: 1;
@@ -280,7 +280,7 @@ nav #check {
   display: none;
 }
 .hero {
-  background-image: url("../img/hero.jpg");
+  background-image: url("../img/Frame.png");
   background-size: cover;
   background-position: fixed;
   background-repeat: no-repeat;
@@ -382,7 +382,7 @@ nav #check {
 }
 .track:hover + h4 {
   transform: scale(1.05);
-  color: #cddb07;
+  color: #07bfdb;
   font-weight: 700;
 }
 .track:hover + h4 + p {
@@ -415,7 +415,7 @@ nav #check {
 }
 .tracks > div:hover .track + h4 {
   transform: scale(1.05);
-  color: #cddb07 !important;
+  color: #33d5d7 !important;
   font-weight: 700;
 }
 .tracks > div:hover .track + h4 + p {
