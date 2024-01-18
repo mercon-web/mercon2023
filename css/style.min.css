@@ -45,7 +45,8 @@
   background-color: #026ab4;
 }
 .bg-secondary {
-  background-color: #172f4e;
+  background-color: #0f293e;
+
 }
 .bg-white {
   background-color: #fff;
@@ -176,13 +177,24 @@ h4 {
   margin: 0;
   padding: 0;
 }
-body {
+/* body {
   font-family: "Gorgia", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
   background: linear-gradient(90.42deg, #050e15 8.4%, #152539 90.16%);
   color: #fff;
+} */
+
+body {
+  font-family: "Georgia", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  /* background: linear-gradient(178.1deg, rgb(60, 55, 106) 8.5%, rgb(23, 20, 69) 82.4%); */
+  background: linear-gradient(90.42deg, #050e15 8.4%, #152539 90.16%);
+
+  color: #fff;
 }
+
 p,
 h4 {
   transition: all 0.3s ease-in-out;
@@ -1001,3 +1013,16 @@ nav #check {
     width: 400px;
   }
 }
+
+#blink{	
+  animation-name:blink;
+  width:280px;
+  animation-duration:2s;
+  animation-timing-function:ease-in;
+  animation-iteration-count:Infinite;
+  }
+
+@keyframes blink{
+  0%{color:red;}
+  50%{color:white;}
+  100%{color:red;}
