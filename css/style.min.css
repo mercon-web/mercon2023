@@ -1275,12 +1275,6 @@ nav #check {
 	font-size: 1.5rem;
 }
 
-.back{
-  background: #ffffff;
-  background: -webkit-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
-  background: -o-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
-  background: linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
-}
 
 .front:after{
 	position: absolute;
