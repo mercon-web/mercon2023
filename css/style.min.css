@@ -442,7 +442,7 @@ nav #check {
 .grid-venue {
   margin-top: 3rem;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  /* grid-template-rows: repeat(3, 1fr); */
 }
 .grid-venue iframe {
   grid-column: 1/3;
