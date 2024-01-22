@@ -180,7 +180,7 @@ h4 {
   font-family: "Gorgia", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background: linear-gradient(90.42deg, #050e15 8.4%, #6d0534 90.16%);
+  background: linear-gradient(90.42deg, #050e15 8.4%, #4d052f 90.16%);
   color: #fff;
 } */
 
@@ -291,7 +291,7 @@ nav #check {
   display: none;
 }
 .hero {
-  background-image: url("../img/back 1.jpg");
+  background-image: url("../img/back 6.png");
   background-size: cover;
   background-position: fixed;
   background-repeat: no-repeat;
