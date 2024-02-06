@@ -291,6 +291,14 @@ nav #check {
   padding-top: 30vh;
   position: relative;
 }
+/* Media query for smaller screens (e.g., mobile devices) */
+@media only screen and (max-width: 767px) {
+  .hero {
+    background-image: url("../img/Frame 2.png"); /* Specify the path to your mobile image */
+    padding-top: 20vh; /* Adjust padding as needed for mobile layout */
+  }
+}
+
 .hero img {
   width: 100%;
   -o-object-fit: contain;
