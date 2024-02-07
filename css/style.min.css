@@ -180,7 +180,7 @@ body {
   font-family: "Gorgia", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background: #6d0f34;
+  background: linear-gradient(90.42deg, #c31432 8.4%, #240b36 90.16%);
   color: #ffffff;
 }
 p,
