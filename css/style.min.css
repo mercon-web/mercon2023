@@ -136,7 +136,7 @@ h4 {
   display: block;
   width: 100px;
   height: 5px;
-  background-color: #026ab4;
+  background-color: #410d35;
   margin: auto;
 }
 .text-center {
@@ -180,7 +180,7 @@ body {
   font-family: "Gorgia", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background: linear-gradient(90.42deg, #c31432 8.4%, #240b36 98.16%);
+  background: #6d0f34;
   color: #ffffff;
 }
 p,
@@ -238,7 +238,7 @@ nav ul li ul {
   width: 300px;
   top: 100%;
   left: 0;
-  background-color: #540254;
+  background-color: #410d35;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   opacity: 0;
   transition: all 0.3s ease-in-out;
@@ -847,7 +847,9 @@ nav #check {
     position: fixed;
     width: 200px;
     height: 100vh;
-    background: #540254;
+
+    background: #410d35;
+
     top: 60px;
     left: -100%;
     text-align: center;
