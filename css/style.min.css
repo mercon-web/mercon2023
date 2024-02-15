@@ -18,11 +18,11 @@
   cursor: pointer;
 }
 .btn.btn-primary {
-  background-color: #026ab4;
+  background-color: #310a0a;
   color: #fff;
 }
 .btn.btn-primary:hover {
-  background-color: #0388e6;
+  background-color: #5c022f;
   color: #fff;
 }
 .btn.btn-secondary {
@@ -611,6 +611,7 @@ nav #check {
 }
 .main {
   padding: 80px 0;
+  background: linear-gradient(90.42deg, #c31432 8.4%, #240b36 90.16%);
   background: linear-gradient(
     180deg,
     #ffffff -36.43%,
