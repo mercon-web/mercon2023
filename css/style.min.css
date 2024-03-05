@@ -1012,3 +1012,33 @@ nav #check {
     width: 400px;
   }
 }
+
+.dateBox {
+  width: 400px;
+  backdrop-filter: blur(2px);
+  background: rgba(255, 255, 255, 0.1);
+  color: black;
+  -webkit-backdrop-filter: blur(5px);
+  height: 80px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+}
+
+@media (max-width: 765px) {
+  .dateBox {
+    width: 300px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 413px) {
+  .dateBox {
+    width: 250px;
+    height: 50px;
+  }
+}
