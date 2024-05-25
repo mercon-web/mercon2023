@@ -706,7 +706,6 @@ nav #check {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(207.66deg, #001b37 14.58%, #587594 82.81%);
 }
 .keynote-one > h1 {
   margin: 20px;
@@ -760,7 +759,7 @@ nav #check {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(207.66deg, #001b37 14.58%, #587594 82.81%);
+ 
 }
 .keynote-three-profile {
   display: flex;
