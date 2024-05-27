@@ -668,13 +668,13 @@ nav #check {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   padding: 20px;
   text-align: center;
 }
 .keynote-hero-profiles-card {
   width: 350px;
-  height: 400px;
+  height: auto;
   padding-top: 20px;
   background: #310a0a;
   margin: 30px;
@@ -693,7 +693,7 @@ nav #check {
   justify-content: center;
 }
 .keynote-hero-profiles-card p {
-  height: 200px;
+  /* height: 200px; */
   margin: 20px;
   font-size: 16px;
 }
@@ -759,7 +759,6 @@ nav #check {
   display: flex;
   justify-content: center;
   align-items: center;
- 
 }
 .keynote-three-profile {
   display: flex;
