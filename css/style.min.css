@@ -626,6 +626,19 @@ nav #check {
 .main ul {
   padding: 5px 20px;
 }
+
+.read-more-link {
+  background: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.read-more-link:hover {
+  color: #ccc; /* Lighter shade for hover effect */
+}
+
 #scroll-to-top-button {
   position: fixed;
   z-index: 1;
@@ -668,13 +681,13 @@ nav #check {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   padding: 20px;
   text-align: center;
 }
 .keynote-hero-profiles-card {
   width: 350px;
-  height: 400px;
+  height: auto;
   padding-top: 20px;
   background: #310a0a;
   margin: 30px;
@@ -685,6 +698,7 @@ nav #check {
 .keynote-hero-profiles-card img {
   width: 60%;
   border-radius: 50%;
+  height: 200px;
 }
 .keynote-hero-profiles-card h1 {
   height: 80px;
@@ -693,7 +707,7 @@ nav #check {
   justify-content: center;
 }
 .keynote-hero-profiles-card p {
-  height: 200px;
+  /* height: 200px; */
   margin: 20px;
   font-size: 16px;
 }
@@ -759,7 +773,6 @@ nav #check {
   display: flex;
   justify-content: center;
   align-items: center;
- 
 }
 .keynote-three-profile {
   display: flex;
