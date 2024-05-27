@@ -49,6 +49,18 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="./scripts/components.js"></script>
     <script src="./scripts/keynoteScroll.js"></script>
+    <script>
+      document.querySelector('.read-more-link').addEventListener('click', function() {
+        var section = document.querySelector('.sec-keynote');
+        if (section.style.display === 'none') {
+          section.style.display = 'block';
+          this.textContent = 'Read Less';
+        } else {
+          section.style.display = 'none';
+          this.textContent = 'Read More';
+        }
+      });
+    </script>
 
     <title>Mercon 2023</title>
   </head>
@@ -73,6 +85,7 @@
             <img src="./img/keynote-speakers/Amin Abbosh.jpeg" alt="" />
           </div>
           <h1>PROF. AMIN ABBOSH</h1>
+          <button class="read-more-link">Read More</button>
           <section>
             <p>
               Amin Abbosh is a professor and the director of Centre for
@@ -99,48 +112,25 @@
           </section>
           <!-- <p><a class="read-more-link" onclick="scrollToSection('section2')" style="cursor: pointer;"><u>Read More</u></a></p> -->
         </div>
-        <div class="keynote-hero-profiles-card">
-          <div class="keynote-image">
-            <img src="./img/keynote-speakers/Mohan Rajesh Elara.png" alt="" />
-          </div>
-          <h1>PROF. MOHAN RAJESH ELARA</h1>
-          <section class="sec-keynote">
-            <p>
-              Prof. Mohan Elara is currently a Provost’s Chair Professor and
-              Associate Professor with the Engineering Product Development
-              Pillar at the Singapore University of Technology and Design
-              (SUTD). He earned his B.Eng degree from Bharathiar University,
-              India and holds MSc and PhD degrees from Nanyang Technological
-              University, Singapore. Prof. Elara’s research focuses on robotics
-              with a special emphasis on self reconfigurable platforms as well
-              as research problems related to robot ergonomics and autonomous
-              systems. He is also the co-founder of Lionsbot, a global robotics
-              company which develops and deploys a wide range of autonomous
-              cleaning robots. Also, he is the co-founder of Wefaa Robotics, an
-              edutech startup that offers transformative educational robotic
-              products for the global markets.
-            </p>
-            <p>
-              At SUTD, Prof. Elara and his team have garnered international
-              recognition for their research in reconfigurable robots,
-              human-machine interaction, and robot ergonomics, among other
-              topics. He has authored over 200 papers and articles in leading
-              journals, books, and conferences. Prof. Elara has been highly
-              recognized for his contributions toward engineering design,
-              research, and innovation, being the recipient of the Singapore
-              Good Design Mark (SG Mark) Award, in addition to receiving the
-              ASEE Best of Design in Engineering Award, the Tan Kah Kee Young
-              Inventors’ Award and the A’ Design Award, among many others.
-            </p>
-            <p>
-              Dr. Mohan is currently an Associate Editor of the IEEE Robotics &
-              Automation Letters and IEEE Nanotechnology Magazine. He has also
-              served in various positions on organizing and technical committees
-              of several international competitions and conferences.
-            </p>
-          </section>
+        <<div class="keynote-hero-profiles-card">
+        <div class="keynote-image">
+          <img src="./img/keynote-speakers/Mohan Rajesh Elara.png" alt="" />
         </div>
+        <h1>PROF. MOHAN RAJESH ELARA</h1>
+        <button class="read-more-link">Read More</button>
+        <section class="sec-keynote" style="display:none;">
+          <p>
+            Prof. Mohan Elara is currently a Provost’s Chair Professor and Associate Professor with the Engineering Product Development Pillar at the Singapore University of Technology and Design (SUTD). He earned his B.Eng degree from Bharathiar University, India and holds MSc and PhD degrees from Nanyang Technological University, Singapore. Prof. Elara’s research focuses on robotics with a special emphasis on self reconfigurable platforms as well as research problems related to robot ergonomics and autonomous systems. He is also the co-founder of Lionsbot, a global robotics company which develops and deploys a wide range of autonomous cleaning robots. Also, he is the co-founder of Wefaa Robotics, an edutech startup that offers transformative educational robotic products for the global markets.
+          </p>
+          <p>
+            At SUTD, Prof. Elara and his team have garnered international recognition for their research in reconfigurable robots, human-machine interaction, and robot ergonomics, among other topics. He has authored over 200 papers and articles in leading journals, books, and conferences. Prof. Elara has been highly recognized for his contributions toward engineering design, research, and innovation, being the recipient of the Singapore Good Design Mark (SG Mark) Award, in addition to receiving the ASEE Best of Design in Engineering Award, the Tan Kah Kee Young Inventors’ Award and the A’ Design Award, among many others.
+          </p>
+          <p>
+            Dr. Mohan is currently an Associate Editor of the IEEE Robotics & Automation Letters and IEEE Nanotechnology Magazine. He has also served in various positions on organizing and technical committees of several international competitions and conferences.
+          </p>
+        </section>
       </div>
+
     </section>
     <!-- <section id="section1" class="keynote-one">
       <hr />

@@ -626,6 +626,18 @@ nav #check {
 .main ul {
   padding: 5px 20px;
 }
+
+.read-more-link {
+  background: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+.read-more-link:hover {
+  color: #ccc; /* Lighter shade for hover effect */
+}
+
 #scroll-to-top-button {
   position: fixed;
   z-index: 1;
