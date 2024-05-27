@@ -633,6 +633,7 @@ nav #check {
   border: none;
   cursor: pointer;
   font-size: 16px;
+  margin-bottom: 12px;
 }
 .read-more-link:hover {
   color: #ccc; /* Lighter shade for hover effect */
