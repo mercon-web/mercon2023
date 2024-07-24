@@ -453,6 +453,15 @@ nav #check {
 .grid-sponsor {
   grid-template-columns: 1fr 1fr 1fr;
 }
+
+.sponsor-two-columns {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.sponsor-two-columns-card{
+  width: 500px; height:250px; display: flex; justify-content: center;
+}
 .grid-sponsor .img-container {
   display: flex;
   justify-content: center;
@@ -930,10 +939,18 @@ nav #check {
     height: -moz-fit-content !important;
     height: fit-content !important;
   }
+  .sponsor-two-columns {
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: column;
+  }
 }
 @media (max-width: 400px) {
   .grid-sponsor {
     grid-template-columns: 1fr;
+  }
+  .sponsor-two-columns {
+    flex-direction: column;
   }
 }
 @media (max-width: 960px) {
